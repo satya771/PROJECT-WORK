@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="register">
+    
+    <nav class="navbar">
+        <a class="navbar-title"><marquee behaviour="alternate" >TAX COLLECTING ENHANCEMENT</marquee></a>
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./About.html">About Us</a></li>
+           
+            <li><a href="./contactUs.html">Contact Us</a></li>
+            <li><a href="./login.html" class="active">Login/Register</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="login-container">
+            <div class="login-form-buttons">
+                <a class="button-outline button-pill" href="./login.html">Log In</a>
+                <a class="button button-pill" href="./register.html">Register</a>
+            </div>
+            <div class="login-form">
+               
+                <input type="text" placeholder="First Name" name="fname" required>
+                <input type="text" placeholder="Last Name" name="lname" required>
+                <input type="text" placeholder="Email Id" name="email" required>
+                <input type="text" placeholder="TIN NUMBER" name="TIN number" required>
+                <input type="text" placeholder="ADHAR NUMBER" name="ADHAR number" required>
+                <input type="text" placeholder="PAN NUMBER" name="PAN number" required>
+                <input type="password" placeholder="Enter Password" name="password" required>
+                <input type="password" placeholder="Confirm Password" name="cnfpassword" required>
+                <input type="checkbox" id="remPwd" /><label for="remPwd">I agree to the terms and
+                    conditions</label><br />
+         
+            </div>
+            <div class="login-form-buttons">
+                <button class="button button-pill w-100">Register</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
